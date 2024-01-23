@@ -4,16 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bs_landing</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.8/holder.min.js"
-            integrity="sha512-O6R6IBONpEcZVYJAmSC+20vdsM07uFuGjFf0n/Zthm8sOFW+lAq/OK1WOL8vk93GBDxtMIy6ocbj6lduyeLuqQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav class="navbar">
+    <div class="container-fluid">
+        <nav class="d-flex justify-content-between w-100">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/images/svg/Logo.svg" alt="logo" class="d-inline-block">
+            </a>
+            <div class="btn btn-primary">
+                Get Early Access
+            </div>
+        </nav>
+    </div>
+</nav>
 <main>
+    <section class="hero">
+        <div class="container-fluid justify-content-center">
+            <div class="row g-5 row-gap-5 justify-content-center">
+                <div class="hero--side-left col-12 col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 class="mb-4">
+                        Event Registration Reimagined
+                    </h1>
+                    <p class="mb-6">Manage your event registrations hassle free and without any dependency with the
+                        technical team. Isn’t
+                        it sounds amazing?
+                    </p>
+                    <div class="btn btn-primary">
+                        Get Early Access
+                    </div>
+                </div>
+                <div class="hero--side-right col-12 col-lg-6 p-md-0">
+                    <img class="img" src="assets/images/png/mockups.png" alt="mockups">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container-fluid justify-content-center">
+            <div class="features--top d-flex flex-column align-items-center">
+                <h1>All-in-one Event features</h1>
+                <div class="subtitle">Deliver an exceptional event experience</div>
+                <div class="image-container my-6">
+                    <img src="assets/images/jpg/video-thumbnail.jpg" alt="video-thumbnail">
+                    <button class="btn btn-light play-btn">
+                        <img src="assets/images/svg/play-icon.svg" alt="play-icon"/>
+                        See it in action (2 min)
+                    </button>
+                </div>
+            </div>
+            <div class="container features-container-bottom">
+                <div class="row g-md-3 row-gap-0 row-gap-md-5">
+                    <div class="features-card col-12 col-md-6 col-lg-4 d-flex flex-md-column py-3 row-gap-4 column-gap-3">
+                        <img src="assets/images/svg/Icon=01.svg" alt="icon" class="align-self-md-center">
+                        <div class="text-md-center">
+                            <strong class="card-title">Event Metrics</strong>
+                            <p class="card-text mt-1 mb-0">Track your ticket sales, attendees count and more with much
+                                ease.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-card col-12 col-md-6 col-lg-4 d-flex flex-md-column py-3 row-gap-4 column-gap-3">
+                        <img src="assets/images/svg/Icon=02.svg" alt="icon" class="align-self-md-center">
+                        <div class="text-md-center">
+                            <strong class="card-title">Registration & Ticketing</strong>
+                            <p class="card-text mt-1 mb-0">Manage your Event registrations and ticket sales easier and
+                                receive payments instantly.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-card col-12 col-md-6 col-lg-4 d-flex flex-md-column py-3 row-gap-4 column-gap-3">
+                        <img src="assets/images/svg/Icon=03.svg" alt="icon" class="align-self-md-center">
+                        <div class="text-md-center">
+                            <strong class="card-title">Branded Badges</strong>
+                            <p class="card-text mt-1 mb-0">Create your custom branded badges for your events and get
+                                them printed.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-card col-12 col-md-6 col-lg-4 d-flex flex-md-column py-3 row-gap-4 column-gap-3">
+                        <img src="assets/images/svg/Icon=04.svg" alt="icon" class="align-self-md-center">
+                        <div class="text-md-center">
+                            <strong class="card-title">Oragniser App</strong>
+                            <p class="card-text mt-1 mb-0">Manage your events at the palm of your hand with our
+                                Oragniser App.</p>
+                        </div>
+                    </div>
+                    <div class="features-card col-12 col-md-6 col-lg-4 d-flex flex-md-column py-3 row-gap-4 column-gap-3">
+                        <img src="assets/images/svg/Icon=05.svg" alt="icon" class="align-self-md-center">
+                        <div class="text-md-center">
+                            <strong class="card-title">Attendee Engagement</strong>
+                            <p class="card-text mt-1 mb-0">Engage with your attendees via email, surveys and much
+                                more.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-card col-12 col-md-6 col-lg-4 d-flex flex-md-column py-3 row-gap-4 column-gap-3">
+                        <img src="assets/images/svg/Icon=06.svg" alt="icon" class="align-self-md-center">
+                        <div class="text-md-center">
+                            <strong class="card-title">Add to Calendar</strong>
+                            <p class="card-text mt-1 mb-0">Effortless way to add your events to registered users
+                                calendars by 1-click.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="integrations">
+        <div class="container-fluid justify-content-center">
+            <div class="row row-gap-6">
+                <div class="integrations--left col-12 col-md-6">
+                    <h1 class="title">Integrate with your favorite tools</h1>
+                    <div class="subtitle mt-md-4">Connect RegiM with your most favorite sales and marketing tools</div>
+                </div>
+                <div class="integrations--right col-12 col-md-6 d-flex align-items-center">
+                    <img src="assets/images/png/Logos.png" alt="logos"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <div class="container-fluid justify-content-center">
+            <div class="cta--content d-flex flex-column align-items-center">
+                <h1 class="title">Create your event with RegiM</h1>
+                <div class="subtitle">Leveraging our virtual and live event experience, Hubilo offers everything you
+                    need to set up your next hybrid event from registration to executing a flawless event.
+                </div>
+                <div class="btn btn-primary">
+                    Get Early Access
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="footer--top row justify-content-center">
+            <img class="logo" src="assets/images/svg/Logomark.svg" alt="logo"/>
+        </div>
+        <div class="footer--bottom d-flex flex-column flex-md-row row-gap-3 justify-content-between">
+            <div class="">© RegiM 2022. Made with love by <span>Landify</span></div>
+            <div>For further details, drop a mail to <span>hello@landify.design</span></div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
