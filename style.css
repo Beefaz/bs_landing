@@ -16,6 +16,7 @@
     src: url(assets/fonts/GeneralSans-Bold.ttf) format("truetype");;
     font-weight: 600;
 }
+
 /*-----------main blocks, variables----------*/
 :root {
     --Primary-600: #0876DD;
@@ -131,7 +132,7 @@ main {
     color: #FFF;
     text-align: center;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.14px;
 }
