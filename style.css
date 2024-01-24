@@ -456,9 +456,44 @@ section + section:not(.cta) > .container-fluid:before {
     }
 }
 
-.integrations--right img {
+.integrations--right {
+    gap: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+    .integrations--right {
+        gap: 72px;
+    }
+}
+
+.integrations--right .logos-block {
+    gap: 32px;
+    max-width: 400px;
+}
+
+@media only screen and (min-width: 768px) {
+    .integrations--right .logos-block {
+        gap: 72px;
+        max-width: 600px;
+    }
+}
+
+.integrations--right .logos-block a {
+    width: 56px;
+    height: 56px;
+    box-shadow: 4px 12px 24px 0 rgba(28, 44, 64, 0.08);
+}
+
+@media only screen and (min-width: 768px) {
+    .integrations--right .logos-block a {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.integrations--right .logos-block a img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
